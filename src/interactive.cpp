@@ -71,7 +71,7 @@ static cv::Mat makeHudBGRA(int w, int h, int scale = 1) {
     y = put(y, "T: Toggle Transform (Affine)");
     y = put(y, "Arrows: Translate (tx, ty)");
     y = put(y, "Q/E: Rotate");
-    y = put(y, "-/=: Zoom out / Zoom in");
+    y = put(y, "-/=: Zoom in / Zoom out");
     y = put(y, "Z/X: Pixel block size (Pixelate)");
     y = put(y, "C/V: Threshold (SinCity)");
     y = put(y, "ESC: Quit");
